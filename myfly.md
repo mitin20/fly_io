@@ -5,6 +5,10 @@ brew install flyctl
 If not, you can run the install script:
 curl -L https://fly.io/install.sh | sh
 
+# init node app
+npm init -y
+nmp i express
+
 # Run node server.js to start the application
 node server.js
 
